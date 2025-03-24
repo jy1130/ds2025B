@@ -1,7 +1,6 @@
-l = [11, 9, -77, 8]
-for i, v  in enumerate(l):
-    print(i, v)
+groups = ['HOT', 'Seventeen', 'Black pink', 'NJZ']
+ratings = [1, 2, 4 ,3]
+#짝이 맞아야 모든 함수가 출력될 수 있다.
 
-#l = [11, 9, -77, 8]
-#for i in range(len(l)):
-#    print(i, l[i])
+group_ratings = list(zip(groups, ratings))
+print(group_ratings)
